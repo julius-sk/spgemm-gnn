@@ -1,0 +1,21 @@
+Start time: Tue Apr 15 01:41:14 AM UTC 2025
+Traceback (most recent call last):
+  File "/home/labuser/shiju/MaxK-GNN/maxk_gnn_dgl.py", line 3, in <module>
+    import dgl
+  File "/home/labuser/venv/lib/python3.12/site-packages/dgl/__init__.py", line 16, in <module>
+    from . import (
+  File "/home/labuser/venv/lib/python3.12/site-packages/dgl/dataloading/__init__.py", line 13, in <module>
+    from .dataloader import *
+  File "/home/labuser/venv/lib/python3.12/site-packages/dgl/dataloading/dataloader.py", line 27, in <module>
+    from ..distributed import DistGraph
+  File "/home/labuser/venv/lib/python3.12/site-packages/dgl/distributed/__init__.py", line 5, in <module>
+    from .dist_graph import DistGraph, DistGraphServer, edge_split, node_split
+  File "/home/labuser/venv/lib/python3.12/site-packages/dgl/distributed/dist_graph.py", line 11, in <module>
+    from .. import backend as F, graphbolt as gb, heterograph_index
+  File "/home/labuser/venv/lib/python3.12/site-packages/dgl/graphbolt/__init__.py", line 8, in <module>
+    from .base import *
+  File "/home/labuser/venv/lib/python3.12/site-packages/dgl/graphbolt/base.py", line 8, in <module>
+    from torchdata.datapipes.iter import IterDataPipe
+ModuleNotFoundError: No module named 'torchdata.datapipes'
+Total training time: 1.616 seconds
+End time: Tue Apr 15 01:41:16 AM UTC 2025

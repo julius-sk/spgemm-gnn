@@ -1,0 +1,50 @@
+Current process ID: 32573
+
+Parameters:
+CACHE_SIZE_RATIO=0.05
+CACHE_STRATEGY=direct
+DATA_PATH=./data/
+DATASET=ogbn-products
+DROPOUT=0.5
+ENABLE_LOOKAHEAD=False
+EPOCHS=500
+EVALUATE=None
+GPU=0
+HIDDEN_DIM=256
+HIDDEN_LAYERS=3
+MAXK=32
+MODEL=sage
+NONLINEAR=maxk
+NORM=True
+PATH=experiment/ogbn-products_seed97/sage_max32_direct_0.05
+PLOT_PATH=experiment/ogbn-products_seed97/sage_max32_direct_0.05/plots
+SEED=97
+SELFLOOP=False
+W_LR=0.003
+W_WEIGHT_DECAY=0
+
+Training with DGL built-in GraphConv module.
+Using cache strategy: direct with ratio: 0.05
+Training...
+Input features shape: torch.Size([2449029, 100])
+Training timing started - measuring forward pass aggregation only
+Traceback (most recent call last):
+  File "/home/labuser/shiju/MaxK-GNN/maxk_gnn_dgl.py", line 622, in <module>
+    train(g, features, labels, masks, model, config, logger, writer)
+  File "/home/labuser/shiju/MaxK-GNN/maxk_gnn_dgl.py", line 415, in train
+    logits = model(g, features)
+  File "/home/labuser/.local/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1511, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/labuser/.local/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1520, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/labuser/shiju/MaxK-GNN/utils/models.py", line 163, in forward
+    x = self.layers[i](g, x)
+  File "/home/labuser/.local/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1511, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/labuser/.local/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1561, in _call_impl
+    result = forward_call(*args, **kwargs)
+  File "/home/labuser/shiju/MaxK-GNN/utils/models.py", line 44, in forward
+    feat_data = self.cache_strategy.get_features(feat)
+  File "/home/labuser/shiju/MaxK-GNN/maxk_gnn_dgl.py", line 132, in get_features
+    result[i:end_idx] = self.features[batch_indices].to(self.device)
+RuntimeError: expand(torch.cuda.FloatTensor{[10000, 256, 100]}, size=[10000, 100]): the number of sizes provided (2) must be greater or equal to the number of dimensions in the tensor (3)

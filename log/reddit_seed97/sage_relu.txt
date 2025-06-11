@@ -1,0 +1,2 @@
+Current process ID: 158063
+Training timing started - measuring forward pass aggregation only

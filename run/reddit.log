@@ -1,0 +1,200 @@
+
+Parameters:
+CACHE_SIZE_RATIO=0.05
+CACHE_STRATEGY=none
+DATA_PATH=./data/
+DATASET=reddit
+DROPOUT=0.5
+ENABLE_LOOKAHEAD=False
+EPOCHS=1000
+EVALUATE=None
+GPU=0
+HIDDEN_DIM=256
+HIDDEN_LAYERS=3
+MAXK=32
+MODEL=sage
+NONLINEAR=maxk
+NORM=False
+PATH=./run/
+PLOT_PATH=./run/plots
+SEED=97
+SELFLOOP=False
+W_LR=0.01
+W_WEIGHT_DECAY=0
+
+🔧 Using device: cuda
+🔧 Custom kernels: Not available
+📊 Dataset: reddit
+📊 Nodes: 232965, Edges: 114848857
+📊 Features: 602, Classes: 41
+📊 MaxK value: 32
+📊 Model parameters: 558,121
+🏃 Starting training...
+Epoch 0000/1000 | Loss 26.1534 | Train 0.2098 | Val 0.2336 | Test 0.2314 | Best Val 0.2336 | Best Test 0.2314 | Time 0.534s
+Epoch 0010/1000 | Loss 8.0197 | Train 0.7011 | Val 0.7177 | Test 0.7128 | Best Val 0.7177 | Best Test 0.7128 | Time 0.263s
+Epoch 0020/1000 | Loss 2.4234 | Train 0.8687 | Val 0.8763 | Test 0.8760 | Best Val 0.8763 | Best Test 0.8760 | Time 0.265s
+Epoch 0030/1000 | Loss 1.1389 | Train 0.9190 | Val 0.9245 | Test 0.9241 | Best Val 0.9245 | Best Test 0.9241 | Time 0.293s
+Epoch 0040/1000 | Loss 0.7096 | Train 0.9317 | Val 0.9381 | Test 0.9375 | Best Val 0.9381 | Best Test 0.9375 | Time 0.296s
+Epoch 0050/1000 | Loss 0.5386 | Train 0.9401 | Val 0.9448 | Test 0.9447 | Best Val 0.9448 | Best Test 0.9447 | Time 0.334s
+Epoch 0060/1000 | Loss 0.4427 | Train 0.9439 | Val 0.9468 | Test 0.9470 | Best Val 0.9468 | Best Test 0.9470 | Time 0.423s
+Epoch 0070/1000 | Loss 0.3898 | Train 0.9467 | Val 0.9500 | Test 0.9502 | Best Val 0.9500 | Best Test 0.9502 | Time 0.641s
+
+Parameters:
+CACHE_SIZE_RATIO=0.05
+CACHE_STRATEGY=none
+DATA_PATH=./data/
+DATASET=reddit
+DROPOUT=0.5
+ENABLE_LOOKAHEAD=False
+EPOCHS=1000
+EVALUATE=None
+GPU=0
+HIDDEN_DIM=256
+HIDDEN_LAYERS=3
+MAXK=32
+MODEL=sage
+NONLINEAR=maxk
+NORM=False
+PATH=./run/
+PLOT_PATH=./run/plots
+SEED=97
+SELFLOOP=False
+W_LR=0.01
+W_WEIGHT_DECAY=0
+
+🔧 Using device: cuda
+🔧 Custom kernels: Available
+📊 Dataset: reddit
+📊 Nodes: 232965, Edges: 114848857
+📊 Features: 602, Classes: 41
+📊 MaxK value: 32
+📊 Model parameters: 558,121
+🏃 Starting training...
+
+Parameters:
+CACHE_SIZE_RATIO=0.05
+CACHE_STRATEGY=none
+DATA_PATH=./data/
+DATASET=reddit
+DROPOUT=0.5
+ENABLE_LOOKAHEAD=False
+EPOCHS=1000
+EVALUATE=None
+GPU=0
+HIDDEN_DIM=256
+HIDDEN_LAYERS=3
+MAXK=32
+MODEL=sage
+NONLINEAR=maxk
+NORM=False
+PATH=./run/
+PLOT_PATH=./run/plots
+SEED=97
+SELFLOOP=False
+W_LR=0.01
+W_WEIGHT_DECAY=0
+
+🔧 Using device: cuda
+🔧 Custom kernels: Available
+📊 Dataset: reddit
+📊 Nodes: 232965, Edges: 114848857
+📊 Features: 602, Classes: 41
+📊 MaxK value: 32
+📊 Model parameters: 558,121
+🏃 Starting training...
+
+Parameters:
+CACHE_SIZE_RATIO=0.05
+CACHE_STRATEGY=none
+DATA_PATH=./data/
+DATASET=reddit
+DROPOUT=0.5
+ENABLE_LOOKAHEAD=False
+EPOCHS=1000
+EVALUATE=None
+GPU=0
+HIDDEN_DIM=256
+HIDDEN_LAYERS=3
+MAXK=32
+MODEL=sage
+NONLINEAR=maxk
+NORM=False
+PATH=./run/
+PLOT_PATH=./run/plots
+SEED=97
+SELFLOOP=False
+W_LR=0.01
+W_WEIGHT_DECAY=0
+
+🔧 Using device: cuda
+🔧 Custom kernels: Available
+📊 Dataset: reddit
+📊 Nodes: 232965, Edges: 114848857
+📊 Features: 602, Classes: 41
+📊 MaxK value: 32
+📊 Model parameters: 558,121
+🏃 Starting training...
+
+Parameters:
+CACHE_SIZE_RATIO=0.05
+CACHE_STRATEGY=none
+DATA_PATH=./data/
+DATASET=reddit
+DROPOUT=0.5
+ENABLE_LOOKAHEAD=False
+EPOCHS=1000
+EVALUATE=None
+GPU=0
+HIDDEN_DIM=256
+HIDDEN_LAYERS=3
+MAXK=32
+MODEL=sage
+NONLINEAR=maxk
+NORM=False
+PATH=./run/
+PLOT_PATH=./run/plots
+SEED=97
+SELFLOOP=False
+W_LR=0.01
+W_WEIGHT_DECAY=0
+
+🔧 Using device: cuda
+🔧 Custom kernels: Available
+📊 Dataset: reddit
+📊 Nodes: 232965, Edges: 114848857
+📊 Features: 602, Classes: 41
+📊 MaxK value: 32
+📊 Model parameters: 558,121
+🏃 Starting training...
+
+Parameters:
+CACHE_SIZE_RATIO=0.05
+CACHE_STRATEGY=none
+DATA_PATH=./data/
+DATASET=reddit
+DROPOUT=0.5
+ENABLE_LOOKAHEAD=False
+EPOCHS=1000
+EVALUATE=None
+GPU=0
+HIDDEN_DIM=256
+HIDDEN_LAYERS=3
+MAXK=32
+MODEL=sage
+NONLINEAR=maxk
+NORM=False
+PATH=./run/
+PLOT_PATH=./run/plots
+SEED=97
+SELFLOOP=False
+W_LR=0.01
+W_WEIGHT_DECAY=0
+
+🔧 Using device: cuda
+🔧 Custom kernels: Available
+📊 Dataset: reddit
+📊 Nodes: 232965, Edges: 114848857
+📊 Features: 602, Classes: 41
+📊 MaxK value: 32
+📊 Model parameters: 558,121
+🏃 Starting training...
